@@ -43,14 +43,14 @@ async function crearNuevoGasto() {
 
     console.log("Nuevo gasto a guardar: ", nuevoGastoData);
 
-    const currentUsers = await get("gastos");
+    const gastos = await get("gastos");
 
     //Guardo nuevo gasto
-    currentUsers.push(nuevoGastoData);
-    await save("gastos", currentUsers);
+    gastos.push(nuevoGastoData);
+    await save("gastos", gastos);
 }
 
 async function traerTodosLosGastos() {
-    const currentUsers = await get("gastos");
-    console.log(currentUsers);
+    const gastos = await get("gastos");
+    console.log(gastos);
 }

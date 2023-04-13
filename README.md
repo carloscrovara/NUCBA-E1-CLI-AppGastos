@@ -12,5 +12,4 @@ git clone https://github.com/carloscrovara/NUCBA-E1-CLI-AppGastos.git
 npm install
 
 npm start
-
 ```

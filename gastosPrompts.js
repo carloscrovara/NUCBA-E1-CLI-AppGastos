@@ -25,4 +25,9 @@ const nuevoGastoPrompt = [
         locale: "es-AR",
         format: { month: "short", hour: undefined, minute: undefined },
     },
+    {
+        type: "input",
+        name: "categoria",
+        message: "Categoría:",
+    },
 ];

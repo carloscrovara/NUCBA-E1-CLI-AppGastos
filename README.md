@@ -19,3 +19,5 @@ npm start
 -> Cargar un gasto con un importe, una descripción, una fecha y una categoría, y guardarlo en un archivo JSON. 
 
 -> Consultar todos los gastos guardados en el archivo JSON.
+
+-> Consultar los importes totales de gastos realizados y que están guardados en el archivo JSON.

@@ -9,9 +9,9 @@ export async function promptNuevoGasto() {
 
 const nuevoGastoPrompt = [
     {
-        type: "input",
+        type: "number",
         name: "importe",
-        message: "Importe:",
+        message: "Importe: $",
     },    
     {
         type: "input",
@@ -23,7 +23,7 @@ const nuevoGastoPrompt = [
         name: "fecha_gasto",
         message: "Fecha:",
         locale: "es-AR",
-        format: { month: "short", hour: undefined, minute: undefined },
+        format: { month: "long", hour: undefined, minute: undefined },
     },
     {
         type: "input",
